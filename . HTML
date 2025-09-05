@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Feliz Aniversário Meu Amor </title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(to bottom, #fff0f5, #ffe4e1);
+      color: #333;
+      overflow-x: hidden;
+    }
+    .container {
+      max-width: 900px;
+      margin: auto;
+      padding: 20px;
+      position: relative;
+      z-index: 2;
+    }
+    h1 {
+      color: #c2185b;
+      text-align: center;
+    }
+    p {
+      line-height: 1.6;
+    }
+    .buttons {
+      display: flex;
+      gap: 10px;
+      justify-content: center;
+      margin: 20px 0;
+    }
+    button {
+      padding: 10px 16px;
+      border: none;
+      border-radius: 10px;
+      background: #e91e63;
+      color: white;
+      font-weight: bold;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+    button:hover {
+      background: #d81b60;
+    }
+    .section {
+      background: #fff;
+      border-radius: 16px;
+      padding: 15px;
+      margin: 20px 0;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+      transition: all 0.5s ease;
+    }
+    .hidden {
+      display: none;
+    }
+    .hero img {
+      width: 60%; 
+      display: block;
+      margin: 15px auto;
+      border-radius: 16px;
+    }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 10px;
+      margin-top: 20px;
+    }
+    .gallery img,
+    .gallery video {
+      width: 80%;
+      display: block;
+      margin: auto;
+      border-radius: 10px;
+    }
+    footer {
+      text-align: center;
+      font-size: 16px;
+      font-weight: bold;
+      margin-top: 20px;
+      color: #c2185b;
+    }
+    #play-music-btn {
+      display: block;
+      margin: 20px auto;
+      padding: 12px 20px;
+      font-size: 16px;
+      background: #ff4081;
+      border: none;
+      border-radius: 12px;
+      color: white;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+    #play-music-btn:hover {
+      background: #f50057;
+    }
+
+    /* Fundo com corações suaves */
+    .hearts {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+      z-index: 1;
+      pointer-events: none;
+    }
+    .heart {
+      position: absolute;
+      bottom: -50px;
+      color: #ff6b81;
+      font-size: 22px;
+      opacity: 0.8;
+      animation: floatUp 10s linear forwards, beat 2s ease-in-out infinite;
+    }
+    @keyframes floatUp {
+      0% { transform: translateY(0) scale(1); opacity: 0.8; }
+      100% { transform: translateY(-100vh) scale(1.4); opacity: 0; }
+    }
+    @keyframes beat {
+      0%, 100% { transform: scale(1); }
+      50% { transform: scale(1.15); }
+    }
+  </style>
+</head>
+<body>
+  <!-- Fundo com corações -->
+  <div class="hearts" id="hearts"></div>
+
+  <div class="container">
+    <h1> Feliz aniversário, vida!  </h1>
+    <p style="text-align:center">
+      Finalmente chegou seu dia meu amor,— pelo seu maravilhoso sorriso, e pela sua felicidade  
+      Aperte os botões! e veja o quanto eu te amo 
+    </p>
+
+    <div class="hero">
+      <img src="IMG_20250707_162733.jpg" alt="Letícia">
+    </div>
+
+    <!-- Botão para ativar música -->
+    <button id="play-music-btn"> Tocar Música</button>
+
+    <div class="buttons">
+      <button id="btn-cartas"> Ler Cartas</button>
+      <button id="btn-surpresa"> Ver Surpresa</button>
+    </div>
+
+    <div class="section">
+      <h2> Lembretes Doces q me faz feliz todo dia!</h2>
+      <ul>
+        <li>Seu sorriso ilumina minha vida.</li>
+        <li>Obrigado por cada momento.</li>
+        <li>Você merece tudo de melhor dessa vida, minha princesa, e toda felicidade do mundo! </li>
+      </ul>
+    </div>
+
+    <div class="gallery">
+      <img src="praça.jpg" alt="Foto 1">
+      <img src="Vilaa.jpg" alt="Foto 2">
+
+      <!-- Vídeo 1 -->
+      <video controls>
+        <source src="Momentos.mp4" type="video/mp4">
+        Seu navegador não suporta vídeos.
+      </video>
+
+      <!-- Vídeo 2 -->
+      <video controls>
+        <source src="Ema.mp4" type="video/mp4">
+        Seu navegador não suporta vídeos.
+      </video>
+    </div>
+
+    <div id="cartas" class="section hidden">
+      <h2> Cartas e Mensagem </h2>
+      <p><strong>Do Seu pretinho insuportável</strong>  
+ Vida,desde que você entrou na minha vida, tudo ganhou cor e eu me senti mais vivo,
+       Obrigado por ser essa mina incrível q vc é estar cntg foi minha melhor escolha e eu não qro te perder nem ver vc partir e me deixar,Eu amo cada detalhe de vc,
+ desde os pés a cabeça e vc sabe, sou chato irritante mais a questão é que vc me faz muito bem, e sla ultimamente essas brigas abalou tdd e isso foi nescessário pra mim
+ olhar tudo que já aconteceu e ver o quanto Eu te amo e o quanto sou feliz com vc, peço perdão por agir como um imbecil,eu sei o quanto vc merece alguém melhor e eu qro ser essa pessoa pra vc
+ as vezes nem sei pq brigamos sendo que quando estamos juntos são incríveis nossos momentos,Vc sabe que apesar do meu jeito vc me ama, sabe só qro pedir pra vc não deixar tudo acabar 
+ pois nossa felicidade é oq importa e eu sei q posso te fazer feliz assim como vc me faz, só q sla é tanto medo de perder vc que eu acho que vc possa perder todo sentimento e se afastar de vez e eu nunca mais poder 
+ te sentir, te tocar sentir seu cheiro, e demonstrar o quanto eu te amo,Mais só quero que entenda que eu não quero viver sem o amor da minha vida e sem a mulher mais incrível e maravilhosa que eu já conheci peço perdão por tudo e 
+ Tô sendo um Homem melhor pra poder ser o Amor da sua vida, dsclp pelos constrangimentos e pelas lágrimas q derrubou, Eu vou ser melhor e vou sempre está contigo e ver vc conquistar tudo que um dia já me falou assim como eu, 
+Eu te amo muitãooo e continua sendo essa mina que me faz ter orgulho de ter do lado!
+assim qro ser o Homem que vc possa ter orgulho de ter como namorado, Eu sinto muito por já ter mágoado você, Eu prometo q não vai acontecer mais brigas bobas ou discussões ridículas,
+vamos ser melhor um pro outro e fazer da certo vida... esse é meu maior sonho, Aproveita muito seu dia Eu te amo muitãoo!
+      </p>
+    </div>
+
+    <div id="surpresa" class="section hidden">
+      <h2> Palavras do Coração </h2>
+      <p>Vida, a cada dia que passo ao seu lado sinto que sou a pessoa mais sortuda do mundo. Eu amo você de corpo e alma... vc mudou minha vida e isso me mudou 
+        como pessoa tenho muito orgulho de vc e eu sempre vou te amar pq vc é o amor da minha vida sem qualquer chance de dúvida vc é a melhor escolha da minha vida todo dia.</p>
+      <div style="margin-top:15px; padding:10px; background:#ffe4ec; border-radius:10px;">
+        <h3>Poema</h3>
+        <p><em>
+         Letícia, teu nome é canção,  
+         que ecoa suave no meu coração.  
+         Teu sorriso é luz que me guia,  
+         meu porto seguro, minha alegria.  
+         Eu te amo muitooo Letícia!   
+        </em></p>
+      </div>
+    </div>
+
+    <footer>
+      Eu te amo muitãooo Meu amor  Obrigado por fazer parte da minha vida!
+    </footer>
+  </div>
+
+  <script>
+    // Música
+    const musicBtn = document.getElementById('play-music-btn');
+    let audio;
+
+    musicBtn.addEventListener('click', () => {
+      if (!audio) {
+        audio = new Audio('inevitavel.mp3'); // precisa estar na mesma pasta
+        audio.loop = true;
+      }
+      audio.play().then(() => {
+        musicBtn.style.display = 'none';
+      }).catch(err => {
+        alert('Não foi possível tocar a música. Verifique se o arquivo existe e é mp3 válido.');
+        console.error(err);
+      });
+    });
+
+    // Mostrar/ocultar seções
+    const cartasBtn = document.getElementById("btn-cartas");
+    const surpresaBtn = document.getElementById("btn-surpresa");
+    const cartasSection = document.getElementById("cartas");
+    const surpresaSection = document.getElementById("surpresa");
+
+    cartasBtn.addEventListener("click", () => {
+      cartasSection.classList.toggle("hidden");
+    });
+
+    surpresaBtn.addEventListener("click", () => {
+      surpresaSection.classList.toggle("hidden");
+    });
+
+    // Criar corações no fundo
+    function createHeart() {
+      const heart = document.createElement("div");
+      heart.className = "heart";
+      heart.innerHTML = ""; // símbolo de coração real
+      heart.style.left = Math.random() * 100 + "vw";
+      heart.style.fontSize = Math.random() * 18 + 16 + "px";
+      document.getElementById("hearts").appendChild(heart);
+      setTimeout(() => heart.remove(), 10000);
+    }
+    setInterval(createHeart, 2000);
+  </script>
+</body>
+</html>
